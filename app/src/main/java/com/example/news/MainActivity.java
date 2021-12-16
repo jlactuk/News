@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void run() {
                     try {
-                        URL url = new URL("https://httpbin.org/post");;
+                        URL url = new URL("http://cars.areas.su/login");;
                         HttpURLConnection con = (HttpURLConnection)url.openConnection();
                         con.setRequestProperty("Content-Type", "application/json; utf-8");
                         con.setRequestMethod("POST");
